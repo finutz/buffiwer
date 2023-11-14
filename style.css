@@ -1,39 +1,62 @@
 body {
-   font-family: Arial, sans-serif;
-   margin: 40px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.discordapp.com/attachments/1167208834704621570/1174083914764144670/buffiwer1.png?ex=65664dda&is=6553d8da&hm=2eb6c4bc73ad64f1c4e2875d9c635869f360e50e761c5439d3654685cf1655cb&');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-h1 {
-   color: #333;
+header, nav, main, footer {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
 }
 
-form {
-   margin-top: 20px;
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-label {
-   display: block;
-   margin-bottom: 5px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-input {
-   width: 100%;
-   padding: 8px;
-   margin-bottom: 10px;
+nav li {
+    float: left;
 }
 
-button {
-   background-color: #4caf50;
-   color: white;
-   padding: 10px;
-   border: none;
-   cursor: pointer;
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-button:hover {
-   background-color: #45a049;
+nav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-#navigation {
-   margin-top: 20px;
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
