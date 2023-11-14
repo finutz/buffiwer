@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <title>Download</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Download Page</title>
 </head>
 <body>
-   <h1>Download Page</h1>
-   <p>This is the download page content.</p>
+    <header>
+        <h1>Download Page</h1>
+        <p>Download our awesome content!</p>
+    </header>
 
-   <div id="navigation">
-      <button onclick="redirectTo('index.html')">Home</button>
-      <button onclick="redirectTo('login.html')">Login</button>
-      <button onclick="redirectTo('signup.html')">Sign Up</button>
-   </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="download.html">Download</a></li>
+        </ul>
+    </nav>
 
-   <script src="script.js"></script>
+    <main>
+        <section>
+            <h2>Download Section</h2>
+            <p>Click the link below to download your content:</p>
+            <!-- Update the href attribute with the direct link to your file -->
+            <a href="https://example.com/path/to/your/downloadable/file" download>Download Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
 </body>
 </html>
